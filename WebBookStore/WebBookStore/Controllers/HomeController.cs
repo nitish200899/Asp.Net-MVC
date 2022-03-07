@@ -8,9 +8,19 @@ namespace WebBookStore.Controllers
 {
     public class HomeController: Controller
     {
-        public string Index()
+        public ViewResult Index()
         {
-            return "WebStore";
+            //var obj = new { Id = 1, Name = "Nitish" };
+            //return View("../../TempView/Nitish");
+            return View();
+        }
+        public ViewResult AboutUs()
+        {
+            return View();
+        }
+        public ViewResult ContactUs()
+        {
+            return View();
         }
     }
 }
